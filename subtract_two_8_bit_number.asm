@@ -1,0 +1,4 @@
+MVI A,14H
+MVI B,86H
+SUB B
+HLT
