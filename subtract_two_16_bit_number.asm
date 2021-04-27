@@ -1,12 +1,11 @@
-LHLD 6500H ; Load 1st 16 bit in HL Pair with address 6500
-XCHG ; Exchange DE and HL Pair
-LHLD 6502H	; Load 2nd 16 bit in HL Pair with address 6502
-MOV A, E ; Move data from Register E to Accumulator
-SUB L ; A = A-L
-STA 6054H ; Store the subtraction result of lower operand to memory location 6504 from Accumulator
-MOV L,A ; Store the result of Lower Operand subtraction in L Register
-MOV A, D ; Move value from Register D to Accumulator, here we get Higher byte of first number
-SBB H ; Subtract with Borrow the Higher Bits
-MOV H,A ; Store result of higher operand subtraction in H
-SHLD 6505H ;  Store the subtraction result of higher operand to memory location 6505 from Accumulator
+LHLD 3000H ; Load HL pair with Address 3000H
+XCHG ; Exchange HL Pair with DE Pair
+LHLD 3002H ; Load HL pair with Address 3002H
+MVI C,00H ; Clear C
+MOV A,E ; Move Data in Register E to Accumulator. Register E contains the Lower operand of subtractend.
+SUB L ; Subtract Lower Operand of Subtractor from Subtractend, i.e. A = A-L
+STA 3004H ; Store there difference at specified memory location 3004H
+MOV A,D ; Move the Higher Operand of Subtractend to Accumulator, i.e. from Register H to Accumulator
+SBB H ; Subtract with Borrow H from Accumulator
+STA 3005H ; Store there difference at specified memory location 3005H
 HLT
