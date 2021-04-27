@@ -10,3 +10,5 @@
 ![](https://github.com/amandewatnitrr/microprocessor-8085/blob/main/imgs/sub-2-8-bit_number.png)
 ## Multiplication of 2 8-bit number
 ![](https://github.com/amandewatnitrr/microprocessor-8085/blob/main/imgs/multiply-2-8-bit_number(2).png)
+## Division of 2 8-bit number
+![](https://github.com/amandewatnitrr/microprocessor-8085/blob/main/imgs/divide-2-8-bit_number.png)
