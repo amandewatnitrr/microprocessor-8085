@@ -15,3 +15,5 @@
 ## Greater of 2 8-bit number
 ![](https://github.com/amandewatnitrr/microprocessor-8085/blob/main/imgs/greater_of_2_8-bit_number.png)
 ![](https://github.com/amandewatnitrr/microprocessor-8085/blob/main/imgs/greater_of_2_8-bit_number(1).png)
+## OR AND XOR
+![](https://github.com/amandewatnitrr/microprocessor-8085/blob/main/imgs/or_and_xor.png)
