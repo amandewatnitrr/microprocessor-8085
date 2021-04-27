@@ -10,8 +10,7 @@ HLT ; End of Program
 LXI H,7500H ; Get the number stored at Memory Address  7500H. This loads the data to Memory
 MOV A,M ; Now move the number in Memory to Accumulator
 INX H ; Increment H to point to next memory location, that contains the other number and now this number is transfered to the memory.
-SUB M ; Now Add the value in Accumulator to the number in Memory or the number pointed by the pointer.
+SUB M ; Now Subtract the value in Accumulator to the number in Memory or the number pointed by the pointer.
 INX H ; Again increment the pointer to the next location here we will save our output
 MOV M,A ; Move the result from the memory to the Accumulator
 HLT ; End of program
-© 2021 GitHub, Inc.
