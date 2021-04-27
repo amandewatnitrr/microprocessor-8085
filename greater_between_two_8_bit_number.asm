@@ -17,6 +17,8 @@ INX H ;  increment the HL Pointer to point to the next memory location
 CMP M ; Compare the value in Accumulator with the value at the location wehre currently HL Pointer points
 JNC UP ; If no carry is generated, the Program counter jumps to UP and increments the HL Pointer to next location and stores the value in Accumulator over there, as it's the largest.
 MOV A,M ; if Carry is generated, this mean the number pointed by HL Pointer is larger compared to that in Accumulator and hence we need to transfer it to Accumulator
+STA 0003H
+HLT
 UP: INX H ; Once the larger number is transfered to Accumulator, increment the HL Pointer to next memory location and store the largest number over there.
 STA 0003H
 HLT
