@@ -17,3 +17,5 @@
 ![](https://github.com/amandewatnitrr/microprocessor-8085/blob/main/imgs/greater_of_2_8-bit_number(1).png)
 ## OR AND XOR
 ![](https://github.com/amandewatnitrr/microprocessor-8085/blob/main/imgs/or_and_xor.png)
+## Move Data Block
+![](https://github.com/amandewatnitrr/microprocessor-8085/blob/main/imgs/move_data_block.png)
