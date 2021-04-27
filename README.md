@@ -26,3 +26,4 @@
 ![](https://github.com/amandewatnitrr/microprocessor-8085/blob/main/imgs/move_data_block.png)
 ## Square root 8-bit number
 ![](https://github.com/amandewatnitrr/microprocessor-8085/blob/main/imgs/square%20root%208-bit%20number.png)
+![](https://github.com/amandewatnitrr/microprocessor-8085/blob/main/imgs/square%20root%208-bit.png)
